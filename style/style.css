@@ -79,18 +79,18 @@ input {
     margin-right: auto;
     padding: 3rem 2.4rem 4rem 2.4rem;
 }
-.header_wrap {
+.header__wrap {
     display: flex;
     align-items: center;
 
 }
-.header_logo {
+.header__logo {
     font-size: 6.4rem;
     margin-right: 7rem;
     font-weight: 700;
     line-height: 117%;
 }
-.header_nav {
+.header__nav {
     font-size: 2.4rem;
     font-weight: 500;
     line-height: 117%;
@@ -102,13 +102,13 @@ input {
 /*.header_nav a:not(:last-child) {
     margin-right: 2.5rem;
 }*/
-.header_find{
+.header__find{
     width: 33rem;
     height: 4.1rem;
     margin-right: 3.9rem;
 }
 
-.header_find input{
+.header__find input{
     width: 100%;
     height: 100%;
     border-radius: 0.8rem;
@@ -122,31 +122,31 @@ input {
     line-height: 115%;
     color: #FFFFFF;
 }
-.header_find input::placeholder {
+.header__find input::placeholder {
     font-size: 2rem;
     color: #FFFFFF;
 }
 
-.header_date {
+.header__date {
     text-align: center;
     margin-right: 8.6rem;
 }
-.header_hour {
+.header__hour {
     font-size: 2rem;
     line-height: 115%;
 }
-.header_day {
+.header__day {
     font-size: 1.2rem;
     line-height: 117%;
 }
 
-.header_personal {
+.header__personal {
     width: 6rem;
     height: 6rem;
     border-radius: 50%;
 }
 
-.main-display_trailer {
+.main-display__trailer {
    /* background: rgba(0,0,0, 0.4) url('../img/SpiderMan.jpg');*/
     position: relative;
     width: 98.5%;
@@ -162,25 +162,25 @@ input {
     padding: 1.9rem 0 1.9rem 1.9rem;
 }
 
-.main-display_views {
+.main-display__views {
     font-weight: 700;
     font-size: 1.6rem;
     line-height: 119%;
 }
 
-.main-display_header {
+.main-display__header {
     font-weight: 700;
     font-size: 2.4rem;
     line-height: 117%;
 }
 
-.main-display_date {
+.main-display__date {
     font-weight: 700;
     font-size: 1.4rem;
     line-height: 114%;
 }
 
-.button-play_wrap {
+.button-play__wrap {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -206,42 +206,42 @@ input {
     align-items: center;
 }
 
-.title_left,
-.title_right {
+.title__left,
+.title__right {
     display: flex;
     align-items: center;
 }
 
-.title_main {
+.title__main {
     font-size: 2rem;
     line-height: 115%;
 }
 
-.title_right {
+.title__right {
   gap: 0.4rem
 }
-.title_left {
+.title__left {
     font-size: 2rem;
     line-height: 115%;
     gap: 2rem;
 }
 
-.title_count,
-.title_right {
+.title__count,
+.title__right {
    padding-top: 0.25rem;
 }
 
-.title_count,
-.title_right span {
+.title__count,
+.title__right span {
     color: rgba(255, 255, 255, 0.2);
 }
 
-.title_right span{
+.title__right span{
     font-size: 1.4rem;
     line-height: 114%;
 }
 
-.title_right img {
+.title__right img {
     width: 2rem;
     height: 1.6rem;
 }

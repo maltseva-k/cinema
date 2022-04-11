@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,22 +11,22 @@
 <body>
     <div class="grid-init grid">
         <header class="header">
-            <div class="header_wrap">
-                <a href="#" class="header_logo">MOVEA</a>
-                <nav class="header_nav">
+            <div class="header__wrap">
+                <a href="#" class="header__logo">MOVEA</a>
+                <nav class="header__nav">
                     <a href="#">Movies</a>
                     <a href="#">TV shows</a>
                     <a href="#">Animations</a>
                     <a href="#">Plans</a>
                 </nav>
-                <div class="header_find">
+                <div class="header__find">
                     <input type="text" placeholder="Search...">
                 </div>
-                <div class="header_date">
-                    <div class="header_hour">19:55</div>
-                    <div class="header_day">11 Apr</div>
+                <div class="header__date">
+                    <div class="header__hour">19:55</div>
+                    <div class="header__day">11 Apr</div>
                 </div>
-                <div class="header_personal">
+                <div class="header__personal">
                     <img src="public/avatar.png">
                 </div>
             </div>
@@ -36,25 +36,25 @@
         </aside>
         <main class="main">
             <section class="main-display">
-                <div class="main-display_trailer">
-                    <div class="main-display_views">Views 77k</div>
-                    <div class="main-display_name">
-                        <h1 class="main-display_header">Spider-Man: No Way Home</h1>
-                        <div class="main-display_date">Feb 2021</div>
+                <div class="main-display__trailer">
+                    <div class="main-display__views">Views 77k</div>
+                    <div class="main-display__name">
+                        <h1 class="main-display__header">Spider-Man: No Way Home</h1>
+                        <div class="main-display__date">Feb 2021</div>
                     </div>
-                    <div class="button-play_wrap">
+                    <div class="button-play__wrap">
                         <button class="button-play" type="button">
                             <img src="img/ArrowPlay.svg">
                         </button>
                     </div>
                 </div>
-                <div class="main-display_trending">
+                <div class="main-display__trending">
                         <div class="title">
-                            <div class="title_left">
-                                <div class="title_main">Continue Watching</div>
-                                <div class="title_count">4 Movies</div>
+                            <div class="title__left">
+                                <div class="title__main">Continue Watching</div>
+                                <div class="title__count">4 Movies</div>
                             </div>
-                            <div class="title_right">
+                            <div class="title__right">
                                 <span>All movies</span>
                                 <img src="img/ArrowRight.svg" alt="">
                             </div>
@@ -67,7 +67,7 @@
                             </div>
                             <div class="trending__footer">
                                 <div class="trending__footer-left">
-                                    <div class="button-play_wrap small">
+                                    <div class="button-play__wrap small">
                                         <button class="button-play" type="button">
                                             <img src="img/ArrowPlay.svg">
                                         </button>
@@ -86,7 +86,7 @@
                         <div class="trending__item">
                             <div class="trending__footer">
                                 <div class="trending__footer-left">
-                                    <div class="button-play_wrap small">
+                                    <div class="button-play__wrap small">
                                         <button class="button-play" type="button">
                                             <img src="img/ArrowPlay.svg">
                                         </button>
@@ -106,12 +106,12 @@
                     </div>
                 </div>
 
-                <div class="main-display_trending">
+                <div class="main-display__trending">
                         <div class="title">
-                            <div class="title_left">
-                                <div class="title_main">Popular movies 2021</div>
+                            <div class="title__left">
+                                <div class="title__main">Popular movies 2021</div>
                             </div>
-                            <div class="title_right">
+                            <div class="title__right">
                                 <span>All movies</span>
                                 <img src="img/ArrowRight.svg" alt="">
                             </div>
@@ -120,7 +120,7 @@
                         <div class="popular__item">
                             <div class="popular__footer">
                                 <div class="popular__footer-left">
-                                    <div class="button-play_wrap small">
+                                    <div class="button-play__wrap small">
                                         <button class="button-play" type="button">
                                             <img src="img/ArrowPlay.svg">
                                         </button>
@@ -140,7 +140,7 @@
                         <div class="popular__item">
                             <div class="popular__footer">
                                 <div class="popular__footer-left">
-                                    <div class="button-play_wrap small">
+                                    <div class="button-play__wrap small">
                                         <button class="button-play" type="button">
                                             <img src="img/ArrowPlay.svg">
                                         </button>
@@ -160,7 +160,7 @@
                         <div class="popular__item">
                             <div class="popular__footer">
                                 <div class="popular__footer-left">
-                                    <div class="button-play_wrap small">
+                                    <div class="button-play__wrap small">
                                         <button class="button-play" type="button">
                                             <img src="img/ArrowPlay.svg">
                                         </button>
@@ -181,7 +181,8 @@
                     </div>
                 </div>
 
-        </section>
+            </section>
+        </main>
     </div>
 
     <script src="js/index.js"></script>

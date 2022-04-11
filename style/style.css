@@ -99,9 +99,9 @@ input {
     justify-content: space-between;
     margin-right: 9.2rem;
 }
-/*.header_nav a:not(:last-child) {
-    margin-right: 2.5rem;
-}*/
+nav a:hover {
+   text-decoration: underline;
+}
 .header__find{
     width: 33rem;
     height: 4.1rem;
@@ -392,6 +392,12 @@ input {
     background-color: rgba(0, 0, 0 ,0.4);
     z-index: 2;
 }
+.main-display__trailer:hover:after,
+.trending__item:hover:after,
+.popular__item:hover:after,
+.aside__item:hover:after {
+    background-color: rgba(0, 0, 0 ,0);
+}
 
 .aside {
     padding-right: 5.9rem;
@@ -506,10 +512,9 @@ input {
 }
 .aside__genre {
     padding: 0.5rem 1rem;
-    background-color: #FFFFFF;
     border-radius: 3rem;
     font-size: 1.2rem;
-    line-height: 115%;
+    line-height: 116%;
     align-content: space-between;
 
 }
@@ -527,10 +532,9 @@ input {
     background-color: rgba(225, 120, 79, 1);
 }
 
-
-.aside__genre {
-    font-size: 1.2rem;
-    line-height: 116%;
+.aside__genre:hover {
+    transform: scale(1.3);
+    cursor: default;
 }
 
 .aside__favourite {

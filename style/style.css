@@ -294,8 +294,7 @@ input {
 .popular__header {
     font-weight: 700;
     font-size: 1.1rem;
-    line-height: 1.2px;
-    margin-bottom: 1rem;
+    line-height: 160%;
 }
 
 .trending__date {
@@ -324,7 +323,7 @@ input {
 }
 
 .trending__time,
-.popular__time{
+.popular__time {
     background: #FFFFFF;
     border-radius: 1.6rem;
     padding: 0.4rem 1.3rem;

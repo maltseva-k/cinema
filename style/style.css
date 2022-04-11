@@ -162,6 +162,12 @@ input {
     padding: 1.9rem 0 1.9rem 1.9rem;
 }
 
+.main-display__name,
+.main-display__views,
+.button-play__wrap {
+    z-index: 5;
+}
+
 .main-display__views {
     font-weight: 700;
     font-size: 1.6rem;
@@ -320,6 +326,7 @@ input {
     justify-content: space-between;
     border-radius: 1.6rem;
     background: rgba(255, 255, 255, 0.2);
+    z-index: 5;
 }
 
 .trending__time,
@@ -371,4 +378,17 @@ input {
 .popular__footer-right img {
     width: 1.8rem;
     height: 1.2rem;
+}
+
+.main-display__trailer:after,
+.trending__item:after,
+.popular__item:after,
+.aside__item:after {
+    content: "";
+    position: absolute;
+    display: block;
+    inset: 0;
+    border-radius: 1.6rem;
+    background-color: rgba(0, 0, 0 ,0.4);
+    z-index: 2;
 }

@@ -246,7 +246,8 @@ input {
     height: 1.6rem;
 }
 
-.trending {
+.trending,
+.popular {
     display: flex;
     justify-content: space-between;
     padding-right: 1.6rem;
@@ -265,6 +266,20 @@ input {
     align-items: flex-end;
 }
 
+.popular__item {
+    width: 30%;
+    height: 19.2rem;
+    position: relative;
+    border-radius: 1.6rem;
+    background-image: url('../img/Netflix.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+
+}
+
 .trending__plash img {
     width: 1.6rem;
     height: 1.4rem;
@@ -276,14 +291,28 @@ input {
     line-height: 160%;
 }
 
+.popular__header {
+    font-weight: 700;
+    font-size: 1.1rem;
+    line-height: 1.2px;
+    margin-bottom: 1rem;
+}
+
 .trending__date {
     font-weight: 700;
     font-size: 1rem;
     line-height: 120%;
-
 }
 
-.trending__footer {
+.popular__date {
+    font-weight: 700;
+    font-size: 0.8rem;
+    line-height: 112%;
+}
+
+
+.trending__footer,
+.popular__footer {
     position: relative;
     width: 100%;
     align-items: center;
@@ -294,7 +323,8 @@ input {
     background: rgba(255, 255, 255, 0.2);
 }
 
-.trending__time {
+.trending__time,
+.popular__time{
     background: #FFFFFF;
     border-radius: 1.6rem;
     padding: 0.4rem 1.3rem;
@@ -329,4 +359,17 @@ input {
 .small img {
     width: 1rem;
     height: 1rem;
+}
+
+.popular__footer-right {
+    width: 4rem;
+    display: flex;
+    align-items: center;
+    gap:0.5rem;
+    font-size: 1rem;
+}
+
+.popular__footer-right img {
+    width: 1.8rem;
+    height: 1.2rem;
 }

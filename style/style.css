@@ -1,0 +1,138 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    /*чтобы 1 rem = 10px, умножаем 16зч по умолчанию на 62,5%*/
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    background: #17161B;
+    color: #FFFFFF;
+}
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+ul {
+    padding-left: 0;
+}
+
+ul>li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+}
+
+button,
+input {
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.grid {
+    display: grid;
+    gap: 8rem 0;
+    grid-template-areas:
+    "my-header my-header"
+    "my-aside my-main"
+    "my-aside my-main";
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+}
+
+.header {
+    grid-area: my-header;
+}
+.main {
+    grid-area: my-main;
+}
+.aside {
+    grid-area: my-aside;
+}
+
+.grid-init {
+    max-width: 144rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3rem 2.4rem 4rem 2.4rem;
+}
+.header_wrap {
+    display: flex;
+    align-items: center;
+
+}
+.header_logo {
+    font-size: 6.4rem;
+    margin-right: 7rem;
+}
+.header_nav {
+    font-size: 2.4rem;
+    display: flex;
+    gap: 2.4rem;
+    justify-content: space-between;
+    margin-right: 9.2rem;
+}
+/*.header_nav a:not(:last-child) {
+    margin-right: 2.5rem;
+}*/
+.header_find{
+    width: 33rem;
+    height: 4.1rem;
+    margin-right: 3.9rem;
+}
+
+.header_find input{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.8rem;
+    background: rgba(255, 255, 255, 0.08) url('/img/LoupeIcon.svg');
+    background-repeat: no-repeat;
+    background-size: 2rem;
+    background-position: top 50% right 1.5rem;
+    padding-left: 1rem;
+    padding-right: 5rem;
+    font-size: 2rem;
+    color: #FFFFFF;
+}
+.header_find input::placeholder {
+    font-size: 2rem;
+    color: #FFFFFF;
+}
+
+.header_date {
+    text-align: center;
+    margin-right: 8.6rem;
+}
+.header_hour {
+    font-size: 2rem;
+}
+.header_day {
+    font-size: 1.2rem;
+}
+
+.header_personal {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+}
+

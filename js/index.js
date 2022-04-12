@@ -4,7 +4,12 @@ const iframeModal = document.querySelector('.modal__inner iframe')
 
 buttonsModal.forEach((item, i) => {
     item.addEventListener('click', () => {
-        iframeModal.src = 'https://www.youtube.com/embed/g8Y_GL5h7Fs'
+
+        if (item.getAttribute('data-bs-video-url') === null || undefined) {
+            iframeModal.src = 'https://www.youtube.com/embed/g8Y_GL5h7Fs'
+        } else {
+            iframeModal.src = item.getAttribute('data-bs-video-url')
+        }
         modalWindow.classList.add('active')
     })
 })
@@ -19,6 +24,5 @@ window.onkeydown = function (event) {
         modalWindow.classList.remove('active')
     }
 }
-
 
 

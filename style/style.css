@@ -101,6 +101,10 @@ input {
     font-weight: 700;
     line-height: 117%;
 }
+
+.header__logo:hover {
+    transform: scale(1.1);
+}
 .header__nav {
     font-size: 2.4rem;
     font-weight: 500;

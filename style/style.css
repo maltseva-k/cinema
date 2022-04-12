@@ -659,6 +659,9 @@ nav a:hover {
         justify-content: space-between;
         padding-right: 1rem;
     }
+    .header__logo{
+        margin-right: 0rem;
+    }
     .header__nav,
     .header__find,
     .header__date {

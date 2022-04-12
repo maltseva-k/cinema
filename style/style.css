@@ -641,6 +641,14 @@ nav a:hover {
 }*/
 
 @media (max-width: 499px) {
+    .modal,
+    .modal__inner {
+        width: 100%;
+    }
+    iframe {
+        width: 100%;
+
+    }
     .grid {
         width: 100%;
         display: flex;
@@ -678,6 +686,14 @@ nav a:hover {
 
 }
 @media (min-width: 500px) and (max-width: 991px) {
+    .modal,
+    .modal__inner {
+        width: 100%;
+    }
+    iframe {
+        width: 100%;
+
+    }
     .header__wrap {
         align-items: center;
         display: flex;

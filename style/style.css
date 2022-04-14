@@ -219,11 +219,27 @@ nav a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
     /*filter: blur(1.6rem);*/
 }
 
 .button-play {
     background: transparent;
+}
+.button-play img {
+    opacity: 0.9;
+}
+.trending__item:hover,
+.popular__item:hover,
+.aside__item:hover,
+.main-display__trailer:hover {
+    cursor: pointer;
+}
+.trending__item:hover .button-play img,
+.popular__item:hover .button-play img,
+.aside__item:hover .button-play img,
+.main-display__trailer:hover .button-play img {
+    opacity: 1;
 }
 
 .title {

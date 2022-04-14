@@ -1,5 +1,5 @@
 const modalWindow = document.querySelector('.modal')
-const buttonsModal = document.querySelectorAll('.button-play')
+const buttonsModal = document.querySelectorAll('.trending__item, .main-display__trailer, .aside__item, .popular__item')
 const iframeModal = document.querySelector('.modal__inner iframe')
 
 buttonsModal.forEach((item, i) => {
@@ -24,5 +24,3 @@ window.onkeydown = function (event) {
         modalWindow.classList.remove('active')
     }
 }
-
-

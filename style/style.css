@@ -282,6 +282,14 @@ nav a:hover {
 .title__right span{
     font-size: 1.4rem;
     line-height: 114%;
+
+}
+.title__right {
+
+    cursor: pointer;
+}
+.title__right:hover span{
+    text-decoration: underline;
 }
 
 .title__right img {
